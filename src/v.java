@@ -16,11 +16,11 @@ Vücut Kitle İndeksiniz : 35.49215792320173
  */
 
         Scanner dat = new Scanner(System.in);
-        System.out.println("boy (m)=");
-        double boy= dat.nextDouble();
+        System.out.println("boy (m)=");//ask variable
+        double boy= dat.nextDouble();//this variable must be meter (1,80 etc) and double
         System.out.println("kilo (m)=");
         double kilo= dat.nextDouble();
-        double indeks= kilo/(boy*boy);
+        double indeks= kilo/(boy*boy);//Body Mass Index
         System.out.println("Vücut Kitle İndeksiniz= "+indeks);
     }
 }
